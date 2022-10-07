@@ -8,7 +8,7 @@ namespace QuanLyBanXe.DAO
         public static SqlConnection conn;
         public DataProvider()
         {
-            conn = new SqlConnection(@"Server=TP550LD;Database=QuanLyBanXe;Trusted_Connection=True;");
+            conn = new SqlConnection(@"Data Source=CORSAIR-PC;Initial Catalog=QuanLyBanXe;Integrated Security=True");
         }
         public DataTable GetData(string sql)
         {

@@ -19,13 +19,6 @@ create table LoaiDV
 	MaLDV varchar(10) primary key,
 	TenLDV nvarchar(25),
 )
-create table DichVu
-(
-	MaDV varchar(10) primary key,
-	MaLDV varchar(10) foreign key references LoaiDV(MaLDV),
-	TenDV nvarchar(25),
-	DonGia int
-)
 create table Xe 
 (
 	MaXe varchar(10) primary key,
@@ -130,10 +123,6 @@ insert into NCC values('SZ',N'Suzuki',N'Shizuaka, Nhật Bản','08 3142 3632')
 
 insert into LoaiDV values('BT',N'Bảo Trì')
 insert into LoaiDV values('SC',N'Sửa Chữa')
-
-insert into DichVu values('BD','BT',N'Bảo Trì Định Kỳ',0)
-insert into DichVu values('SC1','SC',N'Thay Xên',100000)
-insert into DichVu values('SC2','SC',N'Sửa Cổ Phuộc',250000)
 
 insert into Xe values('HW','Wave RSX',70,'XS','HD')
 insert into Xe values('HB','Blade',70,'XS','HD')

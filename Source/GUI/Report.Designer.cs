@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Pham Thanh Tu\Desktop\Do an CNPM\QuanLyBanXe\GUI\Report.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\Projects\motorcycle-store-management\Source\GUI\Report.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

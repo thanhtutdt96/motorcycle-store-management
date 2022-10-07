@@ -507,6 +507,8 @@ FROM HoaDon,KhachHang,NhanVien
 WHERE HoaDon.MaKH=KhachHang.MaKH and HoaDon.MaNV=NhanVien.MaNV
 END
 
+GO
+
 -- Dịch vụ PROCEDURES--
 CREATE PROC DichVu_Insert
 @TenDV NVARCHAR(30),
