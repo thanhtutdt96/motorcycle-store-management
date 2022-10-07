@@ -1,5 +1,5 @@
 # Motorcycle Store Management app
-An easy-to-use tool help manage your store and administer staff, motorbike categories, products, suppliers, customers, orders, with a Office 2010 inpsired theme.
+An easy-to-use tool help manage your store and administer staff, motorbike categories, products, suppliers, customers, orders, with a Office 2010 inpsired theme. Built with C# WinForm and DevExpress.
 
 ## Prerequisite
 - DevExpress
